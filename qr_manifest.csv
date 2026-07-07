@@ -1,0 +1,15 @@
+route,label,url,qr_file
+home,Welcome,https://erickatmurphy-ui.github.io/yoshidazed/#home,qr/home.png
+schedule,Schedule,https://erickatmurphy-ui.github.io/yoshidazed/#schedule,qr/schedule.png
+packing-list,Packing List,https://erickatmurphy-ui.github.io/yoshidazed/#packing-list,qr/packing-list.png
+rules,Public Rules,https://erickatmurphy-ui.github.io/yoshidazed/#rules,qr/rules.png
+teams,Teams,https://erickatmurphy-ui.github.io/yoshidazed/#teams,qr/teams.png
+challenges,Public Challenges,https://erickatmurphy-ui.github.io/yoshidazed/#challenges,qr/challenges.png
+road-trip,Road Trip,https://erickatmurphy-ui.github.io/yoshidazed/#road-trip,qr/road-trip.png
+backyard-games,Backyard Games,https://erickatmurphy-ui.github.io/yoshidazed/#backyard-games,qr/backyard-games.png
+scavenger-hunt,Scavenger Hunt,https://erickatmurphy-ui.github.io/yoshidazed/#scavenger-hunt,qr/scavenger-hunt.png
+confessional,Confessional Prompts,https://erickatmurphy-ui.github.io/yoshidazed/#confessional,qr/confessional.png
+awards,Awards,https://erickatmurphy-ui.github.io/yoshidazed/#awards,qr/awards.png
+photo-upload,Photo Upload,https://erickatmurphy-ui.github.io/yoshidazed/#photo-upload,qr/photo-upload.png
+house-reminders,House Reminders,https://erickatmurphy-ui.github.io/yoshidazed/#house-reminders,qr/house-reminders.png
+emergency-info,Emergency Info,https://erickatmurphy-ui.github.io/yoshidazed/#emergency-info,qr/emergency-info.png
