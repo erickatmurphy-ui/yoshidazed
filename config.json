@@ -49,9 +49,9 @@
       "url": "https://erickatmurphy-ui.github.io/yoshidazed/#confessional"
     },
     {
-      "slug": "photo-upload",
-      "label": "Photo Upload",
-      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#photo-upload"
+      "slug": "photo-proof",
+      "label": "Photo Proof",
+      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#photo-proof"
     },
     {
       "slug": "house-info",
@@ -60,7 +60,7 @@
     },
     {
       "slug": "emergency-info",
-      "label": "Emergency / Plan B Info",
+      "label": "Emergency + Backup Info",
       "url": "https://erickatmurphy-ui.github.io/yoshidazed/#emergency-info"
     }
   ],

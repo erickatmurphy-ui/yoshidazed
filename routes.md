@@ -13,6 +13,6 @@ Only the simplified guest-safe hub routes are included.
 | Backyard Games | `#backyard-games` | https://erickatmurphy-ui.github.io/yoshidazed/#backyard-games | `qr/backyard-games.png` |
 | Scavenger Hunt | `#scavenger-hunt` | https://erickatmurphy-ui.github.io/yoshidazed/#scavenger-hunt | `qr/scavenger-hunt.png` |
 | Confessionals | `#confessional` | https://erickatmurphy-ui.github.io/yoshidazed/#confessional | `qr/confessional.png` |
-| Photo Upload | `#photo-upload` | https://erickatmurphy-ui.github.io/yoshidazed/#photo-upload | `qr/photo-upload.png` |
+| Photo Proof | `#photo-proof` | https://erickatmurphy-ui.github.io/yoshidazed/#photo-proof | `qr/photo-proof.png` |
 | House Info | `#house-info` | https://erickatmurphy-ui.github.io/yoshidazed/#house-info | `qr/house-info.png` |
-| Emergency / Plan B Info | `#emergency-info` | https://erickatmurphy-ui.github.io/yoshidazed/#emergency-info | `qr/emergency-info.png` |
+| Emergency + Backup Info | `#emergency-info` | https://erickatmurphy-ui.github.io/yoshidazed/#emergency-info | `qr/emergency-info.png` |

@@ -15,13 +15,13 @@ Live URL: https://erickatmurphy-ui.github.io/yoshidazed/
 - Backyard Games
 - Scavenger Hunt
 - Confessionals
-- Photo Upload
+- Photo Proof
 - House Info
-- Emergency / Plan B Info
+- Emergency + Backup Info
 
 ## Result
 
-The public site is a cheeky guest-facing weekend hub. It includes public game teasers, Production HQ expectations, team color setup, road trip prompts, light challenge lists, confessional prompts, photo upload instructions, guest-safe house information, and emergency/Plan B information.
+The public site is a cheeky guest-facing weekend hub. It includes public game teasers, Production HQ expectations, team color setup, road trip prompts, light challenge lists, confessional prompts, photo proof guidance, guest-safe house information, and emergency/backup information.
 
 Restricted organizer material, unreleased role mechanics, private communications setup, financial/planning details, unreleased mission details, nonpublic score logic, and manual-style operating content are not included in the public site.
 
