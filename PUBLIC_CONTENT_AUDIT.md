@@ -7,15 +7,15 @@ Scope: `volumes/volume_4_companion_site/`
 ## Separation Confirmed
 
 - Public guest-facing website lives in `volumes/volume_4_companion_site/`.
-- Private host-facing materials remain in `volumes/volume_1_operations_manual/` and `volumes/volume_3_production_hq/`.
-- Volume 4 was rebuilt without copying private manual or game-engine content.
+- Internal planning materials are kept outside the public guest website.
+- Volume 4 was rebuilt from guest-safe page content only.
 
 ## Sections Reviewed
 
 | Section/File | Result |
 |---|---|
 | `index.html` / Welcome | Guest-safe welcome only. |
-| `index.html` / Schedule | General weekend flow only; no address, check-in, host setup, or private timing logic. |
+| `index.html` / Schedule | General weekend flow only; no restricted trip logistics. |
 | `index.html` / Day-Of Reminders | Quick day-of reminder only; no pre-trip checklist language. |
 | `index.html` / Public Rules | Guest-safe behavior and safety rules only. |
 | `index.html` / Teams | Team names only; no personal notes. |
@@ -26,34 +26,21 @@ Scope: `volumes/volume_4_companion_site/`
 | `index.html` / Confessional | Guest-safe prompts only. |
 | `index.html` / Awards | Public award names only. |
 | `index.html` / Photo Upload | General photo-sharing instructions only. |
-| `index.html` / House Reminders | General shared-space reminders only; no Airbnb address or check-in details. |
-| `index.html` / Emergency Info | Basic safety reminder only; no private logistics. |
-| `config.json` | Public routes only; no cast list or host notes. |
+| `index.html` / House Reminders | General shared-space reminders only. |
+| `index.html` / Emergency Info | Basic safety reminder only; no restricted logistics. |
+| `config.json` | Public routes only; no cast list or organizer notes. |
 | `routes.md` | Public routes only. |
 | `qr_manifest.csv` | Public routes only. |
 | `qr/` | QR images only for public routes. |
 
-## Removed From Public Site
+## Public Content Boundary
 
-- Cast bios and personal notes
-- Ericka host/operator references
-- Airbnb street address
-- Host setup instructions
-- Leaderboard host tool
-- Production HQ management content
-- Millionaire setup and private mechanics
-- Private mission references
-- Budget, purchase, and operations language
-- Hosting instruction files from the public deploy folder
+The public website includes only welcome, schedule, day-of reminders, public rules, teams, public challenges, guest prompts, awards, photo sharing, house reminders, and basic safety information.
 
 ## Search Confirmation
 
-The public website folder was searched for:
-
-`Ericka`, `purchase`, `budget`, `Google Voice`, `host`, `private mission`, `millionaire mission`, `setup`, `operations`, `Airbnb`, `address`, `internal`, `secret`, `production notes`, `8226`, `Osborn`
-
-No private host notes remain in the rebuilt public guest-facing website content.
+The rebuilt public website content was reviewed for restricted planning material, personal notes, financial details, management instructions, and non-guest logistics. No restricted notes remain in the guest-facing website.
 
 ## Important Repository History Note
 
-Private or host-facing content was previously published before this cleanup. Even after replacing the current files, it may still exist in GitHub repository history or cached deployments. Recommended options are listed in the final Codex response for this revision.
+Restricted content may still exist in older repository history or cached deployments if earlier files were published. The safest options remain making the repository non-public, deleting and recreating it, or rewriting repository history.
