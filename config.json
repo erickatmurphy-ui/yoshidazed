@@ -10,7 +10,7 @@
     },
     {
       "slug": "schedule",
-      "label": "General Schedule",
+      "label": "Schedule",
       "url": "https://erickatmurphy-ui.github.io/yoshidazed/#schedule"
     },
     {
@@ -19,9 +19,34 @@
       "url": "https://erickatmurphy-ui.github.io/yoshidazed/#day-of-reminders"
     },
     {
+      "slug": "production-hq",
+      "label": "Production HQ",
+      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#production-hq"
+    },
+    {
       "slug": "teams",
       "label": "Team Colors",
       "url": "https://erickatmurphy-ui.github.io/yoshidazed/#teams"
+    },
+    {
+      "slug": "road-trip",
+      "label": "Road Trip",
+      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#road-trip"
+    },
+    {
+      "slug": "backyard-games",
+      "label": "Backyard Games",
+      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#backyard-games"
+    },
+    {
+      "slug": "scavenger-hunt",
+      "label": "Scavenger Hunt",
+      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#scavenger-hunt"
+    },
+    {
+      "slug": "confessional",
+      "label": "Confessionals",
+      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#confessional"
     },
     {
       "slug": "photo-upload",
@@ -29,18 +54,13 @@
       "url": "https://erickatmurphy-ui.github.io/yoshidazed/#photo-upload"
     },
     {
-      "slug": "confessional",
-      "label": "Confessional",
-      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#confessional"
-    },
-    {
-      "slug": "house-reminders",
-      "label": "House Reminders",
-      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#house-reminders"
+      "slug": "house-info",
+      "label": "House Info",
+      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#house-info"
     },
     {
       "slug": "emergency-info",
-      "label": "Emergency Info",
+      "label": "Emergency / Plan B Info",
       "url": "https://erickatmurphy-ui.github.io/yoshidazed/#emergency-info"
     }
   ],
