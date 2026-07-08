@@ -1,6 +1,6 @@
 {
   "baseUrl": "https://erickatmurphy-ui.github.io/yoshidazed/",
-  "status": "public-guest-facing",
+  "status": "guest-facing-teaser-hub",
   "eventName": "YOSHIDAZED",
   "routes": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "slug": "schedule",
-      "label": "Schedule",
+      "label": "General Schedule",
       "url": "https://erickatmurphy-ui.github.io/yoshidazed/#schedule"
     },
     {
@@ -19,49 +19,19 @@
       "url": "https://erickatmurphy-ui.github.io/yoshidazed/#day-of-reminders"
     },
     {
-      "slug": "rules",
-      "label": "Public Rules",
-      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#rules"
-    },
-    {
       "slug": "teams",
-      "label": "Teams",
+      "label": "Team Colors",
       "url": "https://erickatmurphy-ui.github.io/yoshidazed/#teams"
-    },
-    {
-      "slug": "challenges",
-      "label": "Public Challenges",
-      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#challenges"
-    },
-    {
-      "slug": "road-trip",
-      "label": "Road Trip",
-      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#road-trip"
-    },
-    {
-      "slug": "backyard-games",
-      "label": "Backyard Games",
-      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#backyard-games"
-    },
-    {
-      "slug": "scavenger-hunt",
-      "label": "Scavenger Hunt",
-      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#scavenger-hunt"
-    },
-    {
-      "slug": "confessional",
-      "label": "Confessional Prompts",
-      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#confessional"
-    },
-    {
-      "slug": "awards",
-      "label": "Awards",
-      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#awards"
     },
     {
       "slug": "photo-upload",
       "label": "Photo Upload",
       "url": "https://erickatmurphy-ui.github.io/yoshidazed/#photo-upload"
+    },
+    {
+      "slug": "confessional",
+      "label": "Confessional",
+      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#confessional"
     },
     {
       "slug": "house-reminders",
@@ -73,5 +43,6 @@
       "label": "Emergency Info",
       "url": "https://erickatmurphy-ui.github.io/yoshidazed/#emergency-info"
     }
-  ]
+  ],
+  "sharedAlbumUrl": "https://photos.app.goo.gl/4WGPEBJkJbnonndw7"
 }
