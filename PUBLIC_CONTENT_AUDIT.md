@@ -16,7 +16,7 @@ Scope: `volumes/volume_4_companion_site/`
 |---|---|
 | `index.html` / Welcome | Guest-safe welcome only. |
 | `index.html` / Schedule | General weekend flow only; no address, check-in, host setup, or private timing logic. |
-| `index.html` / Packing List | Guest-safe packing items only. |
+| `index.html` / Day-Of Reminders | Quick day-of reminder only; no pre-trip checklist language. |
 | `index.html` / Public Rules | Guest-safe behavior and safety rules only. |
 | `index.html` / Teams | Team names only; no personal notes. |
 | `index.html` / Challenges | Public challenge descriptions only. |

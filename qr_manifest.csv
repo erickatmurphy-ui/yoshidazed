@@ -1,7 +1,7 @@
 route,label,url,qr_file
 home,Welcome,https://erickatmurphy-ui.github.io/yoshidazed/#home,qr/home.png
 schedule,Schedule,https://erickatmurphy-ui.github.io/yoshidazed/#schedule,qr/schedule.png
-packing-list,Packing List,https://erickatmurphy-ui.github.io/yoshidazed/#packing-list,qr/packing-list.png
+day-of-reminders,Day-Of Reminders,https://erickatmurphy-ui.github.io/yoshidazed/#day-of-reminders,qr/day-of-reminders.png
 rules,Public Rules,https://erickatmurphy-ui.github.io/yoshidazed/#rules,qr/rules.png
 teams,Teams,https://erickatmurphy-ui.github.io/yoshidazed/#teams,qr/teams.png
 challenges,Public Challenges,https://erickatmurphy-ui.github.io/yoshidazed/#challenges,qr/challenges.png

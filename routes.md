@@ -6,7 +6,7 @@ Only guest-safe routes are included in the public companion site.
 |---|---|---|---|
 | Welcome | `#home` | https://erickatmurphy-ui.github.io/yoshidazed/#home | `qr/home.png` |
 | Schedule | `#schedule` | https://erickatmurphy-ui.github.io/yoshidazed/#schedule | `qr/schedule.png` |
-| Packing List | `#packing-list` | https://erickatmurphy-ui.github.io/yoshidazed/#packing-list | `qr/packing-list.png` |
+| Day-Of Reminders | `#day-of-reminders` | https://erickatmurphy-ui.github.io/yoshidazed/#day-of-reminders | `qr/day-of-reminders.png` |
 | Public Rules | `#rules` | https://erickatmurphy-ui.github.io/yoshidazed/#rules | `qr/rules.png` |
 | Teams | `#teams` | https://erickatmurphy-ui.github.io/yoshidazed/#teams | `qr/teams.png` |
 | Public Challenges | `#challenges` | https://erickatmurphy-ui.github.io/yoshidazed/#challenges | `qr/challenges.png` |
