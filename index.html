@@ -3,192 +3,119 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>YOSHIDAZED Guest Hub</title>
+  <title>YOSHIDAZED</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="topbar">
-    <div>
-      <h1>YOSHIDAZED</h1>
-      <p>Scottsdale 2026 / Guest Hub</p>
-    </div>
-    <nav aria-label="Guest sections"><a href="#home">Welcome</a><a href="#schedule">Schedule</a><a href="#day-of-reminders">Day-Of Reminders</a><a href="#production-hq">Production HQ</a><a href="#teams">Team Colors</a><a href="#road-trip">Road Trip</a><a href="#backyard-games">Backyard Games</a><a href="#scavenger-hunt">Scavenger Hunt</a><a href="#confessional">Confessionals</a><a href="#photo-proof">Photo Proof</a><a href="#house-info">House Info</a><a href="#emergency-info">Emergency + Backup Info</a></nav>
+  <header class="hero" id="welcome">
+    <nav class="top-nav" aria-label="Weekend sections">
+      <a href="#schedule">Schedule</a>
+      <a href="#production-hq">Production HQ</a>
+      <a href="#teams">Teams</a>
+      <a href="#confessionals">Confessionals</a>
+      <a href="#photo-proof">Photo Proof</a>
+      <a href="#emergency-info">Emergency Info</a>
+    </nav>
+    <img class="hero-logo" src="assets/yoshidazed-logo-lockup.png" alt="YOSHIDAZED - THE WEEKEND YOSHI GETS DIAZED">
+    <p class="tagline">Nicole and Brandon are the reason we are here. Everyone else has been cast accordingly.</p>
+    <a class="short-link" href="https://tinyurl.com/yoshidazed">https://tinyurl.com/yoshidazed</a>
   </header>
+
   <main>
-    <section class="hero" id="home">
-      <div class="wrap">
-        <p class="eyebrow">Guest Weekend Guide</p>
-        <h2>Welcome to YOSHIDAZED</h2>
-        <p class="lede">A Scottsdale weekend for Nicole and Brandon.</p>
-        <p>You are not here by accident. You are here because someone decided you were emotionally, socially, or logistically necessary to the plot.</p>
-        <p>Over the next few days, Production HQ may text you, assign you tasks, question your loyalty, reward suspicious behavior, and ask you to explain yourself on camera.</p>
-        <p>Do not panic. That is part of the format.</p>
-        <p class="mystery">Hydrate. Participate. Commit to the bit. Nicole and Brandon are the reason we are here. Everyone else is just trying to make the final edit.</p>
+    <section class="panel intro">
+      <h1>Welcome</h1>
+      <p>The weekend has begun. Production HQ may issue instructions, request evidence, raise suspicion, and ask you to explain yourself on camera.</p>
+    </section>
+
+    <section class="panel" id="schedule">
+      <h2>Schedule</h2>
+      <div class="timeline">
+        <article><span>Friday</span><p>Road trip, arrivals, first team check-in, and the opening round.</p></article>
+        <article><span>Saturday</span><p>Backyard games, scavenger hunt, confessionals, and photo proof moments.</p></article>
+        <article><span>Sunday</span><p>Final accusation, closing photos, and the last Production HQ instructions.</p></article>
       </div>
     </section>
 
-    <section class="section" id="schedule">
-      <div class="wrap">
-        <p class="eyebrow">Weekend Flow</p>
-        <h2>Schedule</h2>
-        <div class="timeline">
-          <article><time>Friday</time><h3>Arrival Episode</h3><ul><li>Depart Fontana around 2 PM</li><li>Arrive in Scottsdale around 8-8:30 PM</li><li>Tacos, drinks, pool, welcome bags</li><li>Production HQ begins observing behavior</li></ul></article>
-          <article><time>Saturday</time><h3>Main Character Day</h3><ul><li>Brunch</li><li>Team activity / backyard games</li><li>BBQ and pool</li><li>ATV ride at 5:45 PM</li><li>Optional cocktails afterward</li><li>Suspicion may increase after sunset</li></ul></article>
-          <article><time>Sunday</time><h3>Finale Morning</h3><ul><li>Breakfast</li><li>Pack up</li><li>Final moments</li><li>Checkout by 10 AM</li><li>Head home with photos, stories, and possibly unanswered questions</li></ul></article>
-        </div>
-      </div>
+    <section class="panel" id="day-of-reminders">
+      <h2>Day-Of Reminders</h2>
+      <ul>
+        <li>Watch for texts from Production HQ.</li>
+        <li>Keep things funny, consensual, and group-shareable.</li>
+        <li>Hydrate is always an acceptable move.</li>
+        <li>Drivers drive. Passengers do the nonsense.</li>
+      </ul>
     </section>
 
-    <section class="section" id="day-of-reminders">
-      <div class="wrap">
-        <p class="eyebrow">Quick Check</p>
-        <h2>Day-Of Reminders</h2>
-        <p class="lede small">Before we get too far into the weekend, make sure you have:</p>
-        <ul class="reminder-list">
-          <li>ID</li>
-          <li>Phone charger</li>
-          <li>Comfortable shoes for ATV</li>
-          <li>Swimsuit accessible</li>
-          <li>Saturday night outfit</li>
-          <li>Any medications you need</li>
-          <li>Sunglasses or hat</li>
-          <li>Anything you personally need that nobody else can replace</li>
-        </ul>
-        <div class="cards reminder-cards">
-          <article class="card"><h3>For the drive</h3><ul><li>Keep snacks/drinks within reach</li><li>Save your phone battery</li><li>Drivers are off-limits for drinking games</li><li>Production-related texts are for passengers only while the car is moving</li></ul></article>
-          <article class="card"><h3>Everything else</h3><p>Everything else is handled. Allegedly.</p></article>
-        </div>
+    <section class="panel" id="production-hq">
+      <h2>Production HQ</h2>
+      <p>This is the public hub for instructions, prompts, team moments, and reminders. One guest may know more than they are saying.</p>
+      <div class="actions">
+        <button data-module="awkward">Awkward Moment Detected</button>
+        <button data-module="sip">Sip / Dare / Confess</button>
       </div>
+      <output id="hq-output">Awaiting instruction.</output>
     </section>
 
-    <section class="section" id="production-hq">
-      <div class="wrap">
-        <p class="eyebrow">Anonymous Voice Of The Weekend</p>
-        <h2>Production HQ</h2>
-        <p class="lede small">Production HQ is the anonymous voice of the weekend.</p>
-        <div class="cards">
-          <article class="card"><h3>You May Receive Texts With</h3><ul><li>team instructions</li><li>road trip prompts</li><li>photo challenges</li><li>confessional prompts</li><li>suspicious updates</li><li>sudden rule changes</li><li>tasks that seem unnecessary but are absolutely part of the experience</li></ul></article>
-          <article class="card"><h3>A Few Notes</h3><ul><li>Read the texts.</li><li>Do not overthink the texts.</li><li>Do not ignore the texts.</li><li>Production does not repeat itself unless Production feels like being generous.</li><li>Some details are intentionally unavailable.</li><li>If something feels suspicious, it probably is.</li><li>If nothing feels suspicious, that is also suspicious.</li></ul></article>
-        </div>
-        <p class="mystery">Production HQ is here to guide the weekend, not ruin your life. Probably.</p>
-        <div class="awkward-module">
-          <h3>Awkward Moment Detected</h3>
-          <p>Something got weird.</p>
-          <p>Production can intervene with a quick prompt to restart the room, redirect the energy, or turn the silence into content.</p>
-          <p>No speeches. No pressure. Just enough chaos to keep the episode moving.</p>
-          <button id="awkwardButton">INTERVENE</button>
-          <div class="prompt-box awkward-box" id="awkwardBox">Awaiting vibe repair.</div>
-        </div>
+    <section class="panel" id="teams">
+      <h2>Team Colors</h2>
+      <div class="team-grid">
+        <article class="blue"><b>Blue Team</b><span>Observe cleanly. Accuse confidently.</span></article>
+        <article class="green"><b>Green Team</b><span>Move quietly. Notice everything.</span></article>
+        <article class="tan"><b>Tan Team</b><span>Look relaxed. Stay suspicious.</span></article>
       </div>
+      <div class="builder">
+        <label for="team-color">Team Identity Builder</label>
+        <select id="team-color">
+          <option>Blue Team</option>
+          <option>Green Team</option>
+          <option>Tan Team</option>
+        </select>
+        <button data-module="team">Build Identity</button>
+      </div>
+      <output id="team-output">Choose a team color.</output>
     </section>
 
-    <section class="section" id="teams">
-      <div class="wrap">
-        <p class="eyebrow">Temporary Bandana Teams</p>
-        <h2>Team Colors</h2>
-        <p class="lede small">Your private envelope includes your temporary team color. If your card says TEAM CAPTAIN, congratulations. You have been promoted without consent.</p>
-        <p>Your official team name will not be assigned in advance. You will create it on the road.</p>
-        <p>At the first rest stop, each team will create:</p>
-        <ul class="reminder-list"><li>official team name</li><li>mascot</li><li>team pose</li><li>slogan or chant</li><li>official accusation phrase</li></ul>
-        <div class="cards">
-          <article class="card team blue"><h3>Blue Team</h3><p>Cool, calm, and already acting like they know something.</p></article>
-          <article class="card team green"><h3>Green Team</h3><p>Naturally suspicious. Possibly hydrated. Possibly not.</p></article>
-          <article class="card team tan"><h3>Tan Team</h3><p>Neutral color. Questionable intentions.</p></article>
-        </div>
-        <p class="mystery">Your bandana color is your temporary identity. Your real identity is pending Production approval.</p>
-      </div>
+    <section class="panel" id="road-trip">
+      <h2>Road Trip</h2>
+      <p>The drive is Episode One. Passengers may receive prompts before the house ever appears.</p>
+      <button data-module="road">Road Trip Prompt</button>
+      <output id="road-output">Ready when the car is.</output>
     </section>
 
-    <section class="section" id="road-trip">
-      <div class="wrap">
-        <p class="eyebrow">Episode One</p>
-        <h2>Road Trip</h2>
-        <p class="lede small">The drive is not dead time. It is episode one.</p>
-        <p>Possible Production-approved road trip activities:</p>
-        <ul class="reminder-list"><li>ETA Psychic: guess the arrival time</li><li>Snack Draft: defend your gas station snack like it is a legal argument</li><li>Playlist Producer: submit one song and accept public judgment</li><li>Quote Collector: save the best line said in the car</li><li>Safe Stop Photo: take one photo that looks more dramatic than the situation deserves</li><li>Team Identity Challenge: create your official team name, mascot, pose, slogan, and accusation phrase at the first rest stop</li></ul>
-        <p class="mystery">Driver rule: Drivers drive. Passengers do the nonsense.</p>
-      </div>
+    <section class="panel" id="backyard-games">
+      <h2>Backyard Games</h2>
+      <p>Play hard enough to create evidence. Keep it playable, funny, and camera-friendly.</p>
     </section>
 
-    <section class="section" id="backyard-games">
-      <div class="wrap">
-        <p class="eyebrow">Saturday Nonsense</p>
-        <h2>Backyard Games</h2>
-        <p>Production may release any combination of the following:</p>
-        <div class="cards">
-          <article class="card"><h3>Possible Games</h3><ul><li>Flip Cup Relay</li><li>Water Cup Relay</li><li>Balloon Pop Challenge</li><li>Wedding Feud</li><li>Mystery Bag Commercial</li></ul></article>
-          <article class="card"><h3>Also Possible</h3><ul><li>Lip Sync Battle</li><li>BBQ Plate Challenge</li><li>Photo Challenge</li><li>Confessional Challenge</li></ul></article>
-        </div>
-        <p class="mystery">Exact rules will be released when Production decides you are ready. Participation is encouraged. Overconfidence is documented.</p>
-      </div>
+    <section class="panel" id="scavenger-hunt">
+      <h2>Scavenger Hunt</h2>
+      <p>Find the detail. Capture the proof. Do not overexplain your strategy.</p>
     </section>
 
-    <section class="section" id="scavenger-hunt">
-      <div class="wrap">
-        <p class="eyebrow">Photo Proof</p>
-        <h2>Scavenger Hunt</h2>
-        <p>You may be asked to capture:</p>
-        <div class="cards">
-          <article class="card"><h3>Possible Captures</h3><ul><li>a citrus-colored drink</li><li>a poolside team photo</li><li>the best quote of the weekend</li><li>a dramatic post-ATV reaction</li></ul></article>
-          <article class="card"><h3>Also Suspicious</h3><ul><li>a photo-ready BBQ plate</li><li>the most suspicious contestant</li><li>a team cheer</li><li>a group photo where everyone looks like they agreed to be there</li></ul></article>
-        </div>
-        <p class="mystery">Some tasks will be announced live. Some may appear when you least expect them. Some may make more sense later. Production does not apologize for this format.</p>
-      </div>
+    <section class="panel" id="confessionals">
+      <h2>Confessionals</h2>
+      <p>Step aside, face the camera, and give Production HQ something usable.</p>
+      <button data-module="confessional">Confessional New Prompt</button>
+      <output id="confessional-output">Your prompt will appear here.</output>
     </section>
 
-    <section class="section" id="confessional">
-      <div class="wrap">
-        <p class="eyebrow">15-30 Seconds</p>
-        <h2>Confessionals</h2>
-        <p>At some point, you may be asked to record a 15-30 second confessional.</p>
-        <p>This is your opportunity to:</p>
-        <ul class="reminder-list"><li>accuse someone</li><li>defend yourself</li><li>praise Nicole and Brandon</li><li>explain your questionable behavior</li><li>create evidence for the recap</li></ul>
-        <p class="mystery">Keep it funny. Keep it consensual. Keep it group-shareable.</p>
-        <div class="prompt-box" id="promptBox">Who is acting the most suspicious and why?</div>
-        <button id="newPrompt">New Prompt</button>
-      </div>
+    <section class="panel" id="photo-proof">
+      <h2>Photo Proof</h2>
+      <p>Evidence should be bright, legible, and easy to identify later.</p>
+      <button data-module="photo">Photo Proof Generator</button>
+      <output id="photo-output">A photo proof prompt will appear here.</output>
     </section>
 
-    <section class="section" id="photo-proof">
-      <div class="wrap">
-        <p class="eyebrow">Photos + Clips</p>
-        <h2>Photo Proof</h2>
-        <p class="lede small">Some moments are memories. Some moments are evidence.</p>
-        <p>Upload your best photos and short clips to the shared album throughout the weekend.</p>
-        <div class="cards">
-          <article class="card"><h3>Production May Request Photo Proof For</h3><ul><li>team challenges</li><li>road trip prompts</li><li>scavenger hunt moments</li><li>suspicious behavior</li><li>anything that clearly needs to be preserved for the record</li></ul><p>If it feels like it belongs in the recap, upload it.</p></article>
-          <article class="card"><h3>Shared Album</h3><p><a class="button-link" href="https://photos.app.goo.gl/4WGPEBJkJbnonndw7">Open the shared album</a></p></article>
-        </div>
-      </div>
+    <section class="panel" id="house-info">
+      <h2>House Info</h2>
+      <p>Shared spaces stay shared. Production appreciates guests who leave no mess and many receipts.</p>
     </section>
 
-    <section class="section" id="house-info">
-      <div class="wrap">
-        <p class="eyebrow">Weekend Home Base</p>
-        <h2>House Info</h2>
-        <div class="address-card"><p>8226 E Osborn Rd<br>Scottsdale, AZ 85251</p></div>
-        <p>Use this for rideshare, food delivery, emergency logistics, midnight DoorDash cravings, and getting back to home base if someone suddenly forgets where they live for the weekend.</p>
-        <p class="mystery">Do not post the address publicly outside the group. The Airbnb is not a crime scene. Let's not turn it into one.</p>
-        <div class="cards">
-          <article class="card"><h3>House Reminders</h3><ul><li>No glass near the pool</li><li>Keep walkways clear</li><li>Clean as you go</li><li>Do not leave chargers behind</li><li>Checkout is 10 AM Sunday</li></ul></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="emergency-info">
-      <div class="wrap">
-        <p class="eyebrow">Useful, Unfortunately</p>
-        <h2>Emergency + Backup Info</h2>
-        <div class="alert-card">
-          <h3>The bit ends when real life starts.</h3>
-          <p>Pause any game, prompt, or joke if someone is uncomfortable, overheated, driving, riding, or needs help.</p>
-          <p>If you need the house address, it is listed above. If you need a ride, food, water, quiet time, or backup, say something.</p>
-          <p>Production supports responsible exits.</p>
-        </div>
-      </div>
+    <section class="panel" id="emergency-info">
+      <h2>Emergency Info</h2>
+      <p>For urgent needs, contact the host group directly and prioritize real safety over any game moment.</p>
     </section>
   </main>
-  <footer><p>YOSHIDAZED / Guest Hub</p></footer>
   <script src="app.js"></script>
 </body>
 </html>

@@ -1,12 +1,15 @@
 {
   "baseUrl": "https://erickatmurphy-ui.github.io/yoshidazed/",
-  "status": "guest-facing-teaser-hub",
+  "shortUrl": "https://tinyurl.com/yoshidazed",
+  "status": "public-guest-facing",
   "eventName": "YOSHIDAZED",
+  "logo": "assets/yoshidazed-logo-lockup.png",
+  "subtitle": "THE WEEKEND YOSHI GETS DIAZED",
   "routes": [
     {
-      "slug": "home",
+      "slug": "welcome",
       "label": "Welcome",
-      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#home"
+      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#welcome"
     },
     {
       "slug": "schedule",
@@ -44,9 +47,9 @@
       "url": "https://erickatmurphy-ui.github.io/yoshidazed/#scavenger-hunt"
     },
     {
-      "slug": "confessional",
+      "slug": "confessionals",
       "label": "Confessionals",
-      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#confessional"
+      "url": "https://erickatmurphy-ui.github.io/yoshidazed/#confessionals"
     },
     {
       "slug": "photo-proof",
@@ -60,9 +63,8 @@
     },
     {
       "slug": "emergency-info",
-      "label": "Emergency + Backup Info",
+      "label": "Emergency Info",
       "url": "https://erickatmurphy-ui.github.io/yoshidazed/#emergency-info"
     }
-  ],
-  "sharedAlbumUrl": "https://photos.app.goo.gl/4WGPEBJkJbnonndw7"
+  ]
 }
