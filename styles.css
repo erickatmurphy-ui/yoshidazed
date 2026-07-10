@@ -20,7 +20,8 @@ body { margin: 0; background: var(--paper); color: var(--ink); font-family: Inte
 .top-nav a:hover { background: #fff; color: var(--pink); }
 .hero-logo { width: min(760px, 94vw); display: block; }
 .tagline { max-width: 680px; margin: 0; text-align: center; font-size: clamp(18px, 2.6vw, 26px); line-height: 1.25; }
-.short-link { color: var(--pink); font-weight: 800; text-decoration-thickness: 2px; }
+.inline-link { color: var(--pink); font-weight: 800; text-decoration-thickness: 2px; }
+.album-link { display: inline-flex; align-items: center; justify-content: center; min-height: 42px; border-radius: 7px; padding: 10px 14px; background: linear-gradient(90deg, var(--pink), var(--coral), var(--orange)); color: white; font-weight: 900; text-decoration: none; }
 main { width: min(1040px, calc(100% - 28px)); margin: 0 auto 54px; display: grid; gap: 14px; }
 .panel { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: clamp(18px, 3vw, 30px); box-shadow: 0 10px 28px rgba(33, 27, 36, .06); }
 .intro { margin-top: -34px; }
@@ -28,6 +29,7 @@ h1, h2 { margin: 0 0 10px; font-family: Georgia, 'Times New Roman', serif; lette
 h1 { font-size: clamp(30px, 8vw, 54px); }
 h2 { font-size: clamp(24px, 5vw, 36px); }
 p, li { font-size: 16px; line-height: 1.52; }
+.helper-note { color: var(--muted); font-size: 14px; font-weight: 700; }
 ul { margin: 8px 0 0; padding-left: 20px; }
 .timeline, .team-grid { display: grid; gap: 10px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .timeline article, .team-grid article { border: 1px solid #f4d0bf; border-radius: 8px; padding: 14px; background: #fffdf9; }

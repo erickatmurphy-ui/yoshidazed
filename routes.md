@@ -6,7 +6,7 @@ Only guest-facing public routes are included in this website update.
 |---|---|---|
 | Welcome | `#welcome` | https://erickatmurphy-ui.github.io/yoshidazed/#welcome |
 | Schedule | `#schedule` | https://erickatmurphy-ui.github.io/yoshidazed/#schedule |
-| Day-Of Reminders | `#day-of-reminders` | https://erickatmurphy-ui.github.io/yoshidazed/#day-of-reminders |
+| Weekend Notes | `#day-of-reminders` | https://erickatmurphy-ui.github.io/yoshidazed/#day-of-reminders |
 | Production HQ | `#production-hq` | https://erickatmurphy-ui.github.io/yoshidazed/#production-hq |
 | Team Colors | `#teams` | https://erickatmurphy-ui.github.io/yoshidazed/#teams |
 | Road Trip | `#road-trip` | https://erickatmurphy-ui.github.io/yoshidazed/#road-trip |

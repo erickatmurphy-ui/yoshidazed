@@ -20,5 +20,5 @@ QA already checked:
 - Subtitle is exactly THE WEEKEND YOSHI GETS DIAZED.
 - Public sections are present.
 - Interactive modules are wired in app.js.
-- Visible short link remains https://tinyurl.com/yoshidazed.
+- The Weekend Hub QR still points to https://tinyurl.com/yoshidazed, but the typed short link is not displayed on the page.
 - No banned wording appears in this update package.

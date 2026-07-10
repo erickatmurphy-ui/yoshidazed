@@ -1,33 +1,59 @@
 const prompts = {
   confessional: [
-    "Who is acting the most innocent, and why is that suspicious?",
-    "Describe the current group dynamic like a reality-show narrator.",
-    "Who would you trust with a secret for exactly six minutes?",
-    "What is one moment Production HQ should replay dramatically?"
+    "What is your official message to Nicole and Brandon?",
+    "What moment from this weekend should be replayed dramatically?",
+    "Who is giving main-character energy right now?",
+    "What is one thing Nicole and Brandon need to see later?",
+    "Who would be the worst person to keep a secret?",
+    "What is one moment that already belongs in the recap?",
+    "What is the funniest thing someone has said so far?",
+    "Give your team a dramatic defense in 15 seconds.",
+    "Accuse someone of being suspicious, then immediately compliment them."
   ],
-  awkward: [
-    "Freeze. Name the awkward moment, assign it a title, and move on.",
-    "Ask one person to explain themselves in one sentence.",
-    "Everyone point to the person making this weirder.",
-    "Take a clean group reset photo before the energy changes."
+  moment: [
+    "Ask the group: What is one Nicole and Brandon moment that deserves to be remembered?",
+    "Everyone gives Nicole and Brandon a fake reality-show episode title for this weekend.",
+    "Pick one person to give a dramatic 20-second recap of the day so far.",
+    "Ask: What is the most Scottsdale thing that has happened since we arrived?",
+    "Nicole and Brandon each get one word to describe the group right now.",
+    "Everyone points to the person most likely to turn a small errand into a full side quest.",
+    "Ask the group: What song should be playing over this exact moment?",
+    "Someone ask Nicole and Brandon one harmless couple question.",
+    "Each team gives itself a fake slogan for the next hour.",
+    "Ask: What is one thing from this weekend that already belongs in the recap?",
+    "Take 30 seconds and nominate someone for 'Best Supporting Energy.'",
+    "Ask: What would the title of this chapter of the weekend be?"
   ],
   road: [
     "ETA Psychic: everyone guesses the arrival time. Closest wins bragging rights.",
-    "Snack Draft: rank the car snacks from elite to emergency-only.",
-    "Playlist Judgment: nominate the most suspicious song choice.",
-    "Quote Collector: capture the best sentence said in the car."
+    "Snack Draft: defend your road trip snack like it was a life decision.",
+    "Playlist Judgment: nominate one song that belongs on the weekend soundtrack.",
+    "Quote Collector: save the funniest thing someone says before arrival.",
+    "Safe Stop Photo: take one photo that proves the journey had a plot.",
+    "Team Identity Challenge: create a team name, pose, and slogan before Scottsdale."
   ],
   sip: [
-    "SIP: take a drink, if you want.",
-    "DARE: nominate someone to do something mildly chaotic.",
-    "CONFESS: answer one honest question from the group.",
-    "HYDRATE: drink water and look smug about it."
+    "SIP / HYDRATE: Sip or hydrate if you have already said 'I'm fine' while clearly needing a snack.",
+    "SHARE: What is one thing Nicole and Brandon do that feels very them?",
+    "DARE: Give a 15-second toast to Nicole and Brandon like you are accepting an award.",
+    "PHOTO: Take one photo that looks like it belongs in the weekend recap.",
+    "SHARE: What is one piece of unserious marriage advice for Nicole and Brandon?",
+    "DARE: Choose someone to narrate the current room like a nature documentary.",
+    "SIP / HYDRATE: Sip or hydrate if you packed something you absolutely did not need.",
+    "COUPLE MOMENT: Nicole and Brandon answer together: who in this group is most likely to survive a reality show?",
+    "DARE: Take a team photo where everyone poses like they understood the assignment.",
+    "SHARE: What is one moment from the trip so far that should not be forgotten?",
+    "PHOTO: Capture Nicole and Brandon with the people nearest them right now.",
+    "LIGHT SUSPICION: Name one person who is acting suspiciously helpful. No cross-examination."
   ],
   photo: [
-    "Capture one team-color photo with every teammate visible.",
-    "Capture evidence of someone taking the game too seriously.",
     "Capture Nicole and Brandon looking like the reason everyone showed up.",
-    "Capture one dramatic reaction shot with no explanation."
+    "Get one photo that proves your team understood the assignment.",
+    "Take one photo that belongs in the weekend recap.",
+    "Capture a couple moment without interrupting the couple.",
+    "Document someone giving main-character energy.",
+    "Get a photo with Nicole, Brandon, and at least one supporting character.",
+    "Capture the most chaotic but still appropriate group moment available."
   ]
 };
 
@@ -49,7 +75,7 @@ document.addEventListener("click", (event) => {
   }
   const target = {
     confessional: "#confessional-output",
-    awkward: "#hq-output",
+    moment: "#hq-output",
     sip: "#hq-output",
     road: "#road-output",
     photo: "#photo-output"
